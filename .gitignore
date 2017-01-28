@@ -1,16 +1,35 @@
-# Eclipse
+
+### Java ###
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
 .classpath
-.project
 .settings/
+.project
+.tern-project
 
-# Intellij
-.idea/
-*.iml
-*.iws
-
-# Mac
-.DS_Store
-
-# Maven
+### Maven ###
 log/
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+### Eclipse ###
+.metadata
+*.tmp
+*.bak
+*.swp
+local.properties
+
+### idea ###
+*.ipr
+*.iws
+*.iml
+ 
+.idea/
+.idea_modules/
